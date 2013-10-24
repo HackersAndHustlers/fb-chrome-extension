@@ -14,5 +14,14 @@
 		"16": "icons/16.png",
 		"48": "icons/48.png",
 		"128": "icons/128.png"
-	}
+	},
+	"background": {
+		"scripts": ["lib/jquery-1.8.3.min.js", "scripts/bg.js"]
+	},
+	"permissions": [
+	    "webRequest",
+	    "tabs",
+	    "https://www.facebook.com/groups/hackersandhustlers/*",
+	    "http://apiweb.io/api/nathancahill/hh/jobs"
+    ]
 }
